@@ -1,0 +1,161 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: black;
+}
+
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav{
+    line-height: 8vh;
+}
+.logo h2{
+    color: white;
+}
+.logo{
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu ul li{
+    padding: 0px 28px 0 0px;
+    list-style-type: none;
+}
+
+.content{
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+.text h2{
+    color: white;
+    font-size: 3rem;
+}
+.text p{
+    color: white;
+    font-size: 1.2rem;
+    width: 90%;
+}
+.text{
+    width: 50%;
+    margin-left: 24vh;
+}
+
+
+
+
+
+
+
+.shop{
+    height: 300vh;
+     display: flex;
+   
+}
+.shop-title{
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin: 0!important;
+   
+    background-color: white;
+
+}
+
+.shop-move{
+    width: 50%;
+}
+
+.shop-move div{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+
+.shop-move div:nth-child(1){
+    background-color: black;
+}
+.shop-move div:nth-child(2){
+    background-color: black;
+}
+.shop-move div:nth-child(3){
+    background-color: black;
+}
+
+.contact{
+    height: 100vh;
+}
+
+.contents{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 95vh;
+
+}
+.bigtext h2{
+    color: white;
+    font-size: 3rem;
+}
+
+.form{
+    width: 68%;
+    line-height: 13vh;
+}
+form{
+    background-color: white;
+ 
+    border-radius: 2vh;
+}
+
+form h2,input, button{
+    margin-left: 15vh;
+}
+
+form input{
+    line-height: 5vh;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+
+    width: 45vh;
+}
+
+form h2{
+    height: 44px;
+}
+
+form button{
+    line-height: 6vh;
+    width: 16vh;
+    border-radius: 8px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    cursor:pointer;
+}
